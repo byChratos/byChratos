@@ -50,7 +50,7 @@
                 height: 50px;
             }
 
-            .python-logo {
+            .logo {
                 width: 40px;
                 height: 40px;
             }
@@ -63,11 +63,11 @@
                 <div class="skillDiv">
 
                     <div class="skill">
-                        <img src="https://github.com/byChratos/byChratos/blob/main/logos/python-original.svg" alt="Python" class="python-logo" />
+                        <img class="logo" src="logos/python-logo-only.png" alt="Python Logo"/>
                     </div>
 
                     <div class="skill">
-                        <p>B</p>
+                        <p>Java</p>
                     </div>
 
                 </div>
