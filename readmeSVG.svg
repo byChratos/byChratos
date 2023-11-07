@@ -1,28 +1,18 @@
-<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 600 125" width="600" height="125" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
         <style>
-            @keyframes hi  {
-                0% { transform: rotate( 0.0deg) }
-                10% { transform: rotate(14.0deg) }
-                20% { transform: rotate(-8.0deg) }
-                30% { transform: rotate(14.0deg) }
-                40% { transform: rotate(-4.0deg) }
-                50% { transform: rotate(10.0deg) }
-                60% { transform: rotate( 0.0deg) }
-                100% { transform: rotate( 0.0deg) }
-            }
-
             .container {
                 background-color: #0d1117;
 
-                border: 2px solid #30363d;
-                border-radius: 10px;
+                border: 1px solid #30363d;
+                border-radius: 5px;
 
                 width: 596;
-                height: 296px;
+                height: 121px;
 
                 display: flex;
+                flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 color: white;
@@ -30,21 +20,18 @@
                 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
             }
 
-            .hi {
-                animation: hi 1.5s linear -0.5s infinite;
-                display: inline-block;
-                transform-origin: 70% 70%;
+            .name {
+                margin: 0 0 0 0;
             }
 
-            @media (prefers-reduced-motion) {
-                .hi {
-                    animation: none;
-                }
+            .based {
+                margin: 0 0 0 0;
             }
         </style>
 
             <div class="container">
-                <h1>Christian Felske <div class="hi">👋</div></h1>
+                <h1 class="name">Christian Felske</h1>
+                <h2 class="based">Rostock | Germany</h2>
             </div>
         </div>
     </foreignObject>
