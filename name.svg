@@ -5,7 +5,7 @@
             .container {
                 background-color: #0d1117;
 
-                border: 0.5px solid #30363d;
+                border: 1px solid #30363d;
                 border-radius: 5px;
 
                 width: 596;
